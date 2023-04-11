@@ -52,7 +52,7 @@ pipeline {
                     type: 'jar']],
                     credentialsId: 'jenkins-nexus-cred',
                     groupId: 'com.mycompany.app',
-                    nexusUrl: '10.160.0.6:8081',
+                    nexusUrl: '34.93.139.14:8081',
                     nexusVersion: 'nexus3',
                     protocol: 'http',
                     repository: 'devops15-jenkins-pipeline',
