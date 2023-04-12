@@ -1,7 +1,7 @@
 pipeline {
     agent any
     triggers {
-        pollSCM('* * * * *') // poll scm
+        pollSCM('* * * * *') // poll scm for every min
         }
         options {
             buildDiscarder(logRotator(numToKeepStr: '5'))
